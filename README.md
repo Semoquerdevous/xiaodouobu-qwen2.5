@@ -88,7 +88,7 @@ uvicorn backend.api:app --host 0.0.0.0 --port 8000
 等待后端窗口出现以下内容后，再开新窗口启动前端：
 ```
 模型加载完成！
-Uvicorn running on http://0.0.0.0:8000
+Uvicorn running on http://0.0.0.0:xxxx
 ```
 ```bash
 # 终端二：启动前端
@@ -99,7 +99,7 @@ python frontend/app.py
 
 启动成功后浏览器访问：
 ```
-http://localhost:7860
+http://localhost:xxxx
 ```
 
 > ⚠️ 必须等后端窗口出现"模型加载完成"后再启动前端，否则前端无法连接后端。
@@ -131,7 +131,7 @@ https://xxxx-xxxx-xxxx.trycloudflare.com
 
 ## 在其他电脑上本地运行
 
-### 汤礼泓已经做的
+### 我已经做的
 
 将项目文件夹打包成 zip 发给对方（**不包含 models 文件夹**，模型太大了）。
 
